@@ -12,6 +12,6 @@ if [ S? -ne 0 ]; then
     echo "ERROR:: Installing mysql is failure"
 
 else
-    echo "ERROR:: Installing mysql is success"
+    echo "Installing mysql is success"
 
 fi
