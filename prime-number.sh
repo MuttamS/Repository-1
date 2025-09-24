@@ -1,0 +1,11 @@
+#!/bin/bash/
+
+echo "Please enter the number"
+read NUMBER
+
+if [ (($NUMBER % 2)) -ne 0 ]; then
+    echo "Given number $NUMBER is EVEN"
+    else
+    echo "Given number $NUMBER is EVEN"
+
+fi
