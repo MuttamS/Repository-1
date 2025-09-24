@@ -2,7 +2,7 @@
 
 USERID=$(ID -U)
 
-if[ $USERID -nq 0 ]; then
+if[ $USERID -ne 0 ]; then
 
     echo "ERROR:: please run this script with root privelages"
 fi
